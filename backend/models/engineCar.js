@@ -8,7 +8,7 @@ const engineCarSchema = new mongoose.Schema({
     mileage: { type: Number, required: true },
     condition: { type: String, required: true },
     color: { type: String, required: true },
-    images: { type: [String], required: true },
+    images: { type: [String] },
     engine: { type: String, required: true },
     fuel: { type: String, required: true },
     transmission: { type: String, required: true },

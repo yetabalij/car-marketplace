@@ -8,7 +8,7 @@ const electricCarSchema = new mongoose.Schema({
     mileage: { type: Number, required: true },
     condition: { type: String, required: true },
     color: { type: String, required: true },
-    images: { type: [String], required: true },
+    images: { type: [String] },
     battery_capacity: { type: String, required: true },
     range: { type: Number, required: true },
     drive_type: { type: String, required: true },
